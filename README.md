@@ -50,3 +50,13 @@ ERROR: No toolchain found for cpu 'k8'. Valid cpus from default_toolchain entrie
 ]
 
 ```
+
+## bazel 0.18.1
+
+```
+bazel build ...
+# PASS
+
+bazel build ... --crosstool_top=//toolchain:toolchain
+# PASS
+```
