@@ -1,0 +1,15 @@
+major_version: "local"
+minor_version: ""
+default_target_cpu: "same_as_host"
+
+toolchain {
+    toolchain_identifier: "cc-k8"
+    host_system_name: "local"
+    target_system_name: "local"
+    target_cpu: "k8"
+    target_libc: "local"
+    compiler: "local"
+    abi_version: "local"
+    abi_libc_version: "local"
+}
+
